@@ -13,6 +13,7 @@ body{
 .btn-container{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .red{
@@ -37,4 +38,14 @@ body{
 
 .userflash{
     background-color: green;
+}
+
+@media  (max-width: 400px   ) {
+    .btn{
+        height: 100px;
+        width: 100px;
+        
+    }
+    
+   
 }
